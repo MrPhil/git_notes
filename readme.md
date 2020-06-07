@@ -60,7 +60,7 @@
 
    1. 配置用户名：`git config --global user.name "your name"`;
    2. 配置用户邮箱：`git config --global user.email "youremail@github.com"`;
-   注：此处配置的用户信息仅仅是签名与github远程库账号密码一点关系没有；如果不带 `--global` 的是项目级别（本仓库内）用户，带的是系统级别（全局）用户
+   3. 注：此处配置的用户信息仅仅是签名与github远程库账号密码一点关系没有；如果不带 `--global` 的是项目级别（本仓库内）用户，带的是系统级别（全局）用户
 
 2. > 查询配置信息
 
