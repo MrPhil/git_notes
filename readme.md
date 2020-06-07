@@ -130,6 +130,7 @@
 * 将文件从暂存区中删除：`` git rm --cached 文件名 ``
 
 * 将git仓库中指定的更新记录恢复出来，并且覆盖暂存区和工作目录：`` git reset --hard commitID`` (此处ID可以是reflog下的ID；如果不加 --hard 则默认是 --mixed 仅仅本地库跟暂存区版本回退，而工作区并不回退) 
+* 注：commitID所代表的实际上是一个哈系数相当于一个指针，HEAD表示指针指向当前的位置，^表示回退一个版本如：`git reset --hard HEAD^^^`表示从HEAD向后回退3个版本；亦可用~进行回退如：`git reset --hard HEAD~3`表示效果相同；
 
 * > > 撤销
   >
